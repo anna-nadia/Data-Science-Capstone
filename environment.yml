@@ -2,9 +2,12 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
+  - python
   - numpy
-  - matplotlib
   - pandas
   - requests
-  - lxml
   - geocoder
+  - pip
+  - pip:
+    - matplotlib
+    - lxml
