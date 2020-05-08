@@ -6,8 +6,8 @@ dependencies:
   - numpy
   - pandas
   - requests
-  - geocoder
   - pip
   - pip:
     - matplotlib
     - lxml
+    - geocoder
