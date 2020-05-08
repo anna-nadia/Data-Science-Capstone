@@ -1,6 +1,7 @@
 name: example-environment
 channels:
   - conda-forge
+  - jmcmurray
 dependencies:
   - python
   - numpy
@@ -8,10 +9,10 @@ dependencies:
   - requests
   - folium
   - geopy
+  - json
   - pip
   - pip:
     - matplotlib
     - lxml
     - geocoder
-    - json
     - sklearn
