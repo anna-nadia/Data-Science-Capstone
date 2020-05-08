@@ -6,8 +6,12 @@ dependencies:
   - numpy
   - pandas
   - requests
+  - json
+  - folium
+  - geopy
   - pip
   - pip:
     - matplotlib
     - lxml
     - geocoder
+    - sklearn
